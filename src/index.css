@@ -210,9 +210,11 @@ h6 {
 
 /* Math Rendering Alignment */
 .katex-display {
+  display: block;
+  width: 100%;
   text-align: left !important;
   margin: 1em 0 !important;
-  padding-left: 1.5em !important;
+  padding: 0.5em 1.5em !important;
   overflow-x: auto;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
