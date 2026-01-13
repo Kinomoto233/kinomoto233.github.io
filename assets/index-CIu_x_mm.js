@@ -859,7 +859,8 @@ $$\\sin \\alpha = \\cos ( \\alpha - \\frac { \\pi } { 2 } )$$
 $$\\sin A - \\sin B = 2 \\cos \\frac { A + B } { 2 } \\sin \\frac { A - B } { 2 }$$
 $$\\cos A - \\cos B = - 2 \\sin \\frac { A + B } { 2 } \\sin \\frac { A - B } { 2 }$$
 $$\\sin A + \\sin B = 2 \\sin \\frac { A + B } { 2 } \\cos \\frac { A - B } { 2 }$$
-$$\\cos A + \\cos B = 2 \\cos \\frac { A + B } { 2 } \\cos \\frac { A - B } { 2 }$$`,Em=`---
+$$\\cos A + \\cos B = 2 \\cos \\frac { A + B } { 2 } \\cos \\frac { A - B } { 2 }$$
+$$a\\cos\\theta - b\\sin\\theta = \\sqrt{a^2 + b^2} \\cos(\\theta + \\varphi),\\ \\tan\\varphi = \\frac{b}{a}$$`,Em=`---
 id: 导电媒质
 title: 导电煤质中的电磁波
 order: 5
@@ -1167,4 +1168,4 @@ $\\int_{0}^{x} S(x)dx=\\sum\\limits_{n=0}^{\\infty}\\int_{0}^{x}(a_n x^{n})dx=\\
             <pre style="white-space: pre-wrap; word-wrap: break-word;">${e.toString()}
 ${e.stack||""}</pre>
         </div>
-    `},Im=async()=>{try{const{default:e}=await lf(async()=>{const{default:t}=await import("./App-CQZJWnjM.js");return{default:t}},[]);Ql.createRoot(document.getElementById("root")).render(Ao.jsx(ra.StrictMode,{children:Ao.jsx(e,{})}))}catch(e){Lo(e)}};window.addEventListener("error",e=>Lo(e.error||e.message,"Runtime Error"));window.addEventListener("unhandledrejection",e=>Lo(e.reason,"Promise Rejection"));Im();export{Um as R,Bm as a,Vm as c,of as g,Ao as j,Hm as n,br as r};
+    `},Im=async()=>{try{const{default:e}=await lf(async()=>{const{default:t}=await import("./App-CnPdmHWN.js");return{default:t}},[]);Ql.createRoot(document.getElementById("root")).render(Ao.jsx(ra.StrictMode,{children:Ao.jsx(e,{})}))}catch(e){Lo(e)}};window.addEventListener("error",e=>Lo(e.error||e.message,"Runtime Error"));window.addEventListener("unhandledrejection",e=>Lo(e.reason,"Promise Rejection"));Im();export{Um as R,Bm as a,Vm as c,of as g,Ao as j,Hm as n,br as r};
