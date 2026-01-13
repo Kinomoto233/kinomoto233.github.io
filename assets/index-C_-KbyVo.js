@@ -856,6 +856,8 @@ $$\\tau_{//} = 1 + \\rho_{//} \\frac { \\cos \\theta_e } { \\cos \\theta_i }$$
 
 ## 一些数学公式
 $$\\sin \\alpha = \\cos ( \\alpha - \\frac { \\pi } { 2 } )$$
+$$\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B$$（记忆：正余同余正）
+$$\\cos(A+B) = \\cos A \\cos B - \\sin A \\sin B$$（余余反正正）
 $$\\sin A - \\sin B = 2 \\cos \\frac { A + B } { 2 } \\sin \\frac { A - B } { 2 }$$
 $$\\cos A - \\cos B = - 2 \\sin \\frac { A + B } { 2 } \\sin \\frac { A - B } { 2 }$$
 $$\\sin A + \\sin B = 2 \\sin \\frac { A + B } { 2 } \\cos \\frac { A - B } { 2 }$$
@@ -1168,4 +1170,4 @@ $\\int_{0}^{x} S(x)dx=\\sum\\limits_{n=0}^{\\infty}\\int_{0}^{x}(a_n x^{n})dx=\\
             <pre style="white-space: pre-wrap; word-wrap: break-word;">${e.toString()}
 ${e.stack||""}</pre>
         </div>
-    `},Im=async()=>{try{const{default:e}=await lf(async()=>{const{default:t}=await import("./App-CnPdmHWN.js");return{default:t}},[]);Ql.createRoot(document.getElementById("root")).render(Ao.jsx(ra.StrictMode,{children:Ao.jsx(e,{})}))}catch(e){Lo(e)}};window.addEventListener("error",e=>Lo(e.error||e.message,"Runtime Error"));window.addEventListener("unhandledrejection",e=>Lo(e.reason,"Promise Rejection"));Im();export{Um as R,Bm as a,Vm as c,of as g,Ao as j,Hm as n,br as r};
+    `},Im=async()=>{try{const{default:e}=await lf(async()=>{const{default:t}=await import("./App-C-AsH4FC.js");return{default:t}},[]);Ql.createRoot(document.getElementById("root")).render(Ao.jsx(ra.StrictMode,{children:Ao.jsx(e,{})}))}catch(e){Lo(e)}};window.addEventListener("error",e=>Lo(e.error||e.message,"Runtime Error"));window.addEventListener("unhandledrejection",e=>Lo(e.reason,"Promise Rejection"));Im();export{Um as R,Bm as a,Vm as c,of as g,Ao as j,Hm as n,br as r};
