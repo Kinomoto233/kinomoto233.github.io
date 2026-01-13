@@ -30,7 +30,7 @@ $$\vec{D} = \varepsilon \vec{E}, \quad\vec{B} = \mu \vec{H}, \quad \vec{J} = \ga
 $$
 \begin{cases}
 \nabla \times \vec{H} = \gamma \vec{E} + \varepsilon \dfrac{\partial \vec{E}}{\partial t} \\
-\nabla \times \vec{E} = -\mu \dfrac{\partial \vec{H}}{\partial t} \\
+\nabla \times \vec{E} = -\mu \dfrac{\partial \vec{B}}{\partial t} \\
 \nabla \cdot (\mu \vec{H}) = 0 \\
 \nabla \cdot (\varepsilon \vec{E}) = \rho
 \end{cases}
@@ -43,6 +43,7 @@ $$
 <Collapsible title="例">
 在$z=0$，$z=d$位置有两个无限大理想导体板，在极板间存在时变电磁场，其电场强度为
 $$\vec{E} = \vec{e}_y E_0 \sin\left(\frac{\pi}{d} z\right) \cos(\omega t - k_x x)$$
+求：该时变场相伴的磁场强度$H$
 <Collapsible title="解">
 由麦克斯韦方程组
 $$\nabla \times \vec{E} &= - \frac { \partial \vec { B } } { \partial t }\\

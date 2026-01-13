@@ -25,11 +25,11 @@ $S$为高斯面，$Q$为高斯面所围电荷
 <Collapsible title="解">
 电场大小只与$R$有关，取同心球面为高斯面
 电荷总量在球外为恒定值，在球内可用表达式表达，所以分两类讨论
-$r>a$
+$r\ge a$
 由高斯定理
 $$\oint_S \vec{E} \cdot d\vec{S} &= \vec{E} \cdot (4\pi r^2 \vec{e}_r) = \frac{Q}{\varepsilon_0}\\
 \vec{E} &= \frac{Q}{4\pi\varepsilon_0 r^2} \vec{e}_r$$
-$r\le a$
+$r<a$
 电荷密度
 $$\rho = \frac{Q}{V} = \frac{3Q}{4\pi a^3}$$
 带电量
