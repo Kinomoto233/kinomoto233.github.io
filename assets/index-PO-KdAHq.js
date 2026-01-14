@@ -228,7 +228,9 @@ $$S_{FM}(t) = A \\cos\\left[ \\omega_c t + K_f \\int m(t) \\, dt \\right]$$
 之后原来的频谱图会一分为二并且高度降低到原来的一半，一半向左搬移$f_c$，一半向右搬移$f_c$
 
 # 数字基带
+系统带宽通常是最高频率减去0（除了DSB和AM）
 ## 传输码型
+**差分码：**遇到1变电平0变11变0，遇到0不变
 **AMI：**1变成正负1交替，0不变
 **HDB_3：**若连0个数不超3个则AMI，否则第四个改为$V_+$或$V_-$
 **双相码：**1变成10，0变成01
@@ -241,6 +243,8 @@ $$S_{FM}(t) = A \\cos\\left[ \\omega_c t + K_f \\int m(t) \\, dt \\right]$$
 ## 无码间串扰
 无码间串扰的双极性基带传输系统的误码率为
 $$\\frac{1}{2}\\mathrm{erfc}\\left(\\frac{A}{\\sqrt{2}\\sigma_n}\\right)$$
+### 奈奎斯特带宽
+理想低通滤波器的截止频率，或者在滚降特性中，传输函数幅度降为一半时所对应的频率
 ### 奈奎斯特准则
 为了无码间串扰，滤波器形状关于$f_N$点奇对称的话，码元传输速率和特征频率应满足
 $$R_B = 2f_N$$
@@ -1205,4 +1209,4 @@ $\\int_{0}^{x} S(x)dx=\\sum\\limits_{n=0}^{\\infty}\\int_{0}^{x}(a_n x^{n})dx=\\
             <pre style="white-space: pre-wrap; word-wrap: break-word;">${e.toString()}
 ${e.stack||""}</pre>
         </div>
-    `},I$=async()=>{try{const{default:e}=await lf(async()=>{const{default:t}=await import("./App-CwIBJ3Mr.js");return{default:t}},[]);Ql.createRoot(document.getElementById("root")).render(Fo.jsx(ra.StrictMode,{children:Fo.jsx(e,{})}))}catch(e){Lo(e)}};window.addEventListener("error",e=>Lo(e.error||e.message,"Runtime Error"));window.addEventListener("unhandledrejection",e=>Lo(e.reason,"Promise Rejection"));I$();export{U$ as R,B$ as a,V$ as c,of as g,Fo as j,H$ as n,br as r};
+    `},I$=async()=>{try{const{default:e}=await lf(async()=>{const{default:t}=await import("./App-Bt4zgzTr.js");return{default:t}},[]);Ql.createRoot(document.getElementById("root")).render(Fo.jsx(ra.StrictMode,{children:Fo.jsx(e,{})}))}catch(e){Lo(e)}};window.addEventListener("error",e=>Lo(e.error||e.message,"Runtime Error"));window.addEventListener("unhandledrejection",e=>Lo(e.reason,"Promise Rejection"));I$();export{U$ as R,B$ as a,V$ as c,of as g,Fo as j,H$ as n,br as r};
