@@ -30,7 +30,7 @@ $$\vec{D} = \varepsilon \vec{E}, \quad\vec{B} = \mu \vec{H}, \quad \vec{J} = \ga
 $$
 \begin{cases}
 \nabla \times \vec{H} = \gamma \vec{E} + \varepsilon \dfrac{\partial \vec{E}}{\partial t} \\
-\nabla \times \vec{E} = -\mu \dfrac{\partial \vec{B}}{\partial t} \\
+\nabla \times \vec{E} = -\mu \dfrac{\partial \vec{H}}{\partial t} \\
 \nabla \cdot (\mu \vec{H}) = 0 \\
 \nabla \cdot (\varepsilon \vec{E}) = \rho
 \end{cases}
@@ -39,6 +39,13 @@ $$
 时变电场的激发源除电荷之外，还有变化的磁场；时变磁场的激发源除传导电流外，还有变化的电场
 电场和磁场互为激发源，相互激发
 电场和磁场不再相互独立，构成一个整体——电磁场
+## 波动方程
+$$
+\begin{cases}
+\nabla^2 \vec{E} = \mu\varepsilon \dfrac{\partial^2 \vec{E}}{\partial t^2} \\
+\nabla^2 \vec{H} = \mu\varepsilon \dfrac{\partial^2 \vec{H}}{\partial t^2}
+\end{cases}
+$$
 # 例题
 <Collapsible title="例">
 在$z=0$，$z=d$位置有两个无限大理想导体板，在极板间存在时变电磁场，其电场强度为
