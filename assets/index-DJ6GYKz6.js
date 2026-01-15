@@ -68,7 +68,7 @@ $$R_b = R_B H(b/s)$$
 频带利用率
 $$\\eta = \\frac{R_B}{B}$$
 
-离散信源熵
+离散信源熵（平均信息量）
 $$H(X) = -\\sum_{i=1}^{M} P(x_i) \\log_2 P(x_i)$$(bit/符号)
 
 当信源**等概率分布**时，数字信源有最大熵：
@@ -1294,4 +1294,4 @@ $\\int_{0}^{x} S(x)dx=\\sum\\limits_{n=0}^{\\infty}\\int_{0}^{x}(a_n x^{n})dx=\\
             <pre style="white-space: pre-wrap; word-wrap: break-word;">${e.toString()}
 ${e.stack||""}</pre>
         </div>
-    `},B$=async()=>{try{const{default:e}=await lf(async()=>{const{default:t}=await import("./App-Dfq2lH_n.js");return{default:t}},[]);Ql.createRoot(document.getElementById("root")).render(Fo.jsx(ra.StrictMode,{children:Fo.jsx(e,{})}))}catch(e){jo(e)}};window.addEventListener("error",e=>jo(e.error||e.message,"Runtime Error"));window.addEventListener("unhandledrejection",e=>jo(e.reason,"Promise Rejection"));B$();export{U$ as R,I$ as a,V$ as c,of as g,Fo as j,H$ as n,br as r};
+    `},B$=async()=>{try{const{default:e}=await lf(async()=>{const{default:t}=await import("./App-BN21sMSq.js");return{default:t}},[]);Ql.createRoot(document.getElementById("root")).render(Fo.jsx(ra.StrictMode,{children:Fo.jsx(e,{})}))}catch(e){jo(e)}};window.addEventListener("error",e=>jo(e.error||e.message,"Runtime Error"));window.addEventListener("unhandledrejection",e=>jo(e.reason,"Promise Rejection"));B$();export{U$ as R,I$ as a,V$ as c,of as g,Fo as j,H$ as n,br as r};
