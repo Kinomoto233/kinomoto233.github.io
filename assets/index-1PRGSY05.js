@@ -51,7 +51,7 @@ order: 1
 ## 指标
 **可靠性（质量）**：误码率（$P_e$）、误信率（$P_s$）
 **有效性（速度）**：比特率（$R_b$）、波特率（$R_B$）、频带利用率（$\\eta$）
-$$\\eta = \\frac{R_b}{B}$$
+$$\\eta = \\frac{R_B}{B}$$
 信源编码提高有效性（压缩），信道编码提高可靠性（增加冗余以纠错）。
 真正衡量数字通信系统的有效性指标是频带利用率：单纯看传输速率（比特率）是不够的，因为高传输速率可能占用了极宽的带宽。单位带宽内的传输速率（即频带利用率）才是衡量系统“传输效率”最公正（真正）的指标。
 
@@ -1294,4 +1294,4 @@ $\\int_{0}^{x} S(x)dx=\\sum\\limits_{n=0}^{\\infty}\\int_{0}^{x}(a_n x^{n})dx=\\
             <pre style="white-space: pre-wrap; word-wrap: break-word;">${e.toString()}
 ${e.stack||""}</pre>
         </div>
-    `},B$=async()=>{try{const{default:e}=await lf(async()=>{const{default:t}=await import("./App-CU6iJQmr.js");return{default:t}},[]);Ql.createRoot(document.getElementById("root")).render(Fo.jsx(ra.StrictMode,{children:Fo.jsx(e,{})}))}catch(e){jo(e)}};window.addEventListener("error",e=>jo(e.error||e.message,"Runtime Error"));window.addEventListener("unhandledrejection",e=>jo(e.reason,"Promise Rejection"));B$();export{U$ as R,I$ as a,V$ as c,of as g,Fo as j,H$ as n,br as r};
+    `},B$=async()=>{try{const{default:e}=await lf(async()=>{const{default:t}=await import("./App-BNeN8BBt.js");return{default:t}},[]);Ql.createRoot(document.getElementById("root")).render(Fo.jsx(ra.StrictMode,{children:Fo.jsx(e,{})}))}catch(e){jo(e)}};window.addEventListener("error",e=>jo(e.error||e.message,"Runtime Error"));window.addEventListener("unhandledrejection",e=>jo(e.reason,"Promise Rejection"));B$();export{U$ as R,I$ as a,V$ as c,of as g,Fo as j,H$ as n,br as r};
