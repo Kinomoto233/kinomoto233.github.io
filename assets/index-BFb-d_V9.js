@@ -1561,7 +1561,7 @@ $$
 ## 零点
 $m$级零点的充要条件
 $$
-f^{(n)}(z_0)=0\\ ,\\ (n=0,1,2,\\cdots n-1), f^{(m)}(z_0)\\ne 0
+f^{(n)}(z_0)=0\\ ,\\ (n=0,1,2,\\cdots m-1), f^{(m)}(z_0)\\ne 0
 $$
 
 ### 零点和极点的关系
@@ -1628,4 +1628,4 @@ $$`,q$=e=>{const n=/^---\r?\n([\s\S]*?)\r?\n---/,t=e.match(n);if(!t)return{attri
             <pre style="white-space: pre-wrap; word-wrap: break-word;">${e.toString()}
 ${e.stack||""}</pre>
         </div>
-    `},G$=async()=>{try{const{default:e}=await cf(async()=>{const{default:t}=await import("./App-BMXdmUEu.js");return{default:t}},[]);Ql.createRoot(document.getElementById("root")).render(Fo.jsx(ra.StrictMode,{children:Fo.jsx(e,{})}))}catch(e){jo(e)}};window.addEventListener("error",e=>jo(e.error||e.message,"Runtime Error"));window.addEventListener("unhandledrejection",e=>jo(e.reason,"Promise Rejection"));G$();export{J$ as R,Z$ as a,b$ as c,ff as g,Fo as j,em as n,br as r};
+    `},G$=async()=>{try{const{default:e}=await cf(async()=>{const{default:t}=await import("./App-VHRmSFlN.js");return{default:t}},[]);Ql.createRoot(document.getElementById("root")).render(Fo.jsx(ra.StrictMode,{children:Fo.jsx(e,{})}))}catch(e){jo(e)}};window.addEventListener("error",e=>jo(e.error||e.message,"Runtime Error"));window.addEventListener("unhandledrejection",e=>jo(e.reason,"Promise Rejection"));G$();export{J$ as R,Z$ as a,b$ as c,ff as g,Fo as j,em as n,br as r};
