@@ -1522,7 +1522,7 @@ $$
 
 ## 洛朗级数
 设函数$f(z)$在圆环域$D: R_1<|z-z_0|<R_2$内解析，则$f(z)$在$D$内可展开成唯一的洛朗级数
-$$f(z) = \\sum\\limits_{n=-\\infty}^{+\\infty} c_n (z - z_0)^n$$
+$$f(z) = \\sum\\limits_{n=-\\infty}^{\\infty} c_n (z - z_0)^n$$
 其中洛朗系数$c_n= \\frac{1}{2\\pi i} \\oint\\limits_C \\frac{f(\\zeta)}{{\\left(\\zeta - z_0\\right)}^{n+1}} d\\zeta$，$C$为$D$内绕$z_0$的任意一条简单正向闭曲线。
 
 # 孤立奇点
@@ -1628,4 +1628,4 @@ $$`,q$=e=>{const n=/^---\r?\n([\s\S]*?)\r?\n---/,t=e.match(n);if(!t)return{attri
             <pre style="white-space: pre-wrap; word-wrap: break-word;">${e.toString()}
 ${e.stack||""}</pre>
         </div>
-    `},G$=async()=>{try{const{default:e}=await cf(async()=>{const{default:t}=await import("./App-qx4fQxRp.js");return{default:t}},[]);Ql.createRoot(document.getElementById("root")).render(Fo.jsx(ra.StrictMode,{children:Fo.jsx(e,{})}))}catch(e){jo(e)}};window.addEventListener("error",e=>jo(e.error||e.message,"Runtime Error"));window.addEventListener("unhandledrejection",e=>jo(e.reason,"Promise Rejection"));G$();export{J$ as R,Z$ as a,b$ as c,ff as g,Fo as j,em as n,br as r};
+    `},G$=async()=>{try{const{default:e}=await cf(async()=>{const{default:t}=await import("./App-BMXdmUEu.js");return{default:t}},[]);Ql.createRoot(document.getElementById("root")).render(Fo.jsx(ra.StrictMode,{children:Fo.jsx(e,{})}))}catch(e){jo(e)}};window.addEventListener("error",e=>jo(e.error||e.message,"Runtime Error"));window.addEventListener("unhandledrejection",e=>jo(e.reason,"Promise Rejection"));G$();export{J$ as R,Z$ as a,b$ as c,ff as g,Fo as j,em as n,br as r};
