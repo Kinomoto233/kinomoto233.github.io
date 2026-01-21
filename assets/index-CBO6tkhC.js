@@ -1404,7 +1404,7 @@ $$
 ### 单
 设函数在多连通域内解析，$C$和$C_1$为$D$内的任意两条闭曲线，以$C$和$C_1$为边界的区域全含于$D$则
 $$
-\\oint\\limits_C f(z)\\,dz = \\oint\\limits_C{C_1} f(z)\\,dz
+\\oint\\limits_C f(z)\\,dz = \\oint\\limits_{C_1} f(z)\\,dz
 $$
 ### 多
 若函数在$D$内解析，设$C$为$D$内的一条闭曲线，$C_1, C_2, \\cdots , C_n$是在$C$内部互不包含互不相交的闭曲线，并且以$C, C_1, C_2, \\cdots , C_n$为边界的区域全含于$D$那么
@@ -1628,4 +1628,4 @@ $$`,q$=e=>{const n=/^---\r?\n([\s\S]*?)\r?\n---/,t=e.match(n);if(!t)return{attri
             <pre style="white-space: pre-wrap; word-wrap: break-word;">${e.toString()}
 ${e.stack||""}</pre>
         </div>
-    `},G$=async()=>{try{const{default:e}=await cf(async()=>{const{default:t}=await import("./App-D_Gc1abu.js");return{default:t}},[]);Ql.createRoot(document.getElementById("root")).render(Fo.jsx(ra.StrictMode,{children:Fo.jsx(e,{})}))}catch(e){jo(e)}};window.addEventListener("error",e=>jo(e.error||e.message,"Runtime Error"));window.addEventListener("unhandledrejection",e=>jo(e.reason,"Promise Rejection"));G$();export{J$ as R,Z$ as a,b$ as c,ff as g,Fo as j,em as n,br as r};
+    `},G$=async()=>{try{const{default:e}=await cf(async()=>{const{default:t}=await import("./App-qx4fQxRp.js");return{default:t}},[]);Ql.createRoot(document.getElementById("root")).render(Fo.jsx(ra.StrictMode,{children:Fo.jsx(e,{})}))}catch(e){jo(e)}};window.addEventListener("error",e=>jo(e.error||e.message,"Runtime Error"));window.addEventListener("unhandledrejection",e=>jo(e.reason,"Promise Rejection"));G$();export{J$ as R,Z$ as a,b$ as c,ff as g,Fo as j,em as n,br as r};
