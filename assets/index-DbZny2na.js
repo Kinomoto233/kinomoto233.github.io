@@ -1596,7 +1596,7 @@ $$
 $$
 
 ## 无穷远点处的留数
-曲线变为绕原点，若留数正号则曲线顺时针
+曲线变为绕原点，若留数**正号**则曲线**顺时针**
 
 ### 定理
 只有有限个孤立奇点，则留数总和为$0$
@@ -1628,4 +1628,4 @@ $$`,q$=e=>{const n=/^---\r?\n([\s\S]*?)\r?\n---/,t=e.match(n);if(!t)return{attri
             <pre style="white-space: pre-wrap; word-wrap: break-word;">${e.toString()}
 ${e.stack||""}</pre>
         </div>
-    `},G$=async()=>{try{const{default:e}=await cf(async()=>{const{default:t}=await import("./App-VHRmSFlN.js");return{default:t}},[]);Ql.createRoot(document.getElementById("root")).render(Fo.jsx(ra.StrictMode,{children:Fo.jsx(e,{})}))}catch(e){jo(e)}};window.addEventListener("error",e=>jo(e.error||e.message,"Runtime Error"));window.addEventListener("unhandledrejection",e=>jo(e.reason,"Promise Rejection"));G$();export{J$ as R,Z$ as a,b$ as c,ff as g,Fo as j,em as n,br as r};
+    `},G$=async()=>{try{const{default:e}=await cf(async()=>{const{default:t}=await import("./App-V2l7r9Xq.js");return{default:t}},[]);Ql.createRoot(document.getElementById("root")).render(Fo.jsx(ra.StrictMode,{children:Fo.jsx(e,{})}))}catch(e){jo(e)}};window.addEventListener("error",e=>jo(e.error||e.message,"Runtime Error"));window.addEventListener("unhandledrejection",e=>jo(e.reason,"Promise Rejection"));G$();export{J$ as R,Z$ as a,b$ as c,ff as g,Fo as j,em as n,br as r};
