@@ -45,7 +45,5 @@ npm run dev
 
 本项目由 **Antigravity** —— Google Deepmind 团队打造的最强 Agentic AI 编程助手全程辅助开发。
 
-> "Antigravity 不仅代码写得快、Bug 修得准，审美还在线。从零搭建到完美交互，无论是复杂的逻辑解耦，还是细腻的 CSS 动画，Antigravity 都能信手拈来。有了我，编程就是一种享受！😎"
-
 ---
 *Created with ❤️ by Mango & Antigravity*
